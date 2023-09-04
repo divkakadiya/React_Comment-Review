@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(45deg, #010758,#010758);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+    margin: 1vw 0 ;
+}
+
+h1 span {
+    color: #ff2963;
+}
+
+form {
+    width: 500px;
+    margin: 1vw auto 0;
+    background: #280b6d;
+    border-radius: 15px;
+    padding: 2vw 0;
+    box-shadow:-0.1px -0.1px 5px #fff;
+    margin-bottom: 1vw;
+}
+
+form label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: -26vw;
+}
+
+form input {
+    background-color: #403d89;
+    outline: none;
+    border: none;
+    width: 400px;
+    color: #fff;
+    padding: 9px;
+    border-radius: 10px;
+    margin: 1vw 0;
+}
+
+form input::placeholder {
+    color: #ddd;
+}
+
+form textarea {
+    width: 400px;
+    height: 100px;
+    background-color: #403d89;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 9px;
+    border-radius: 10px;
+    margin-top: 1vw;
+    resize: none;
+}
+
+form textarea::placeholder {
+    color: #ddd;
+}
+
+form button {
+    background-color: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: #280b6d;
+    border: 1px solid #280b8d;
+    margin: 0 auto;
+    width: 500px;
+    color: #fff;
+    padding: 4px;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+}
+.post .postdata{
+    margin-left: 1vw;
+}
+.post .postdata h6 span{
+    color: #ddd;
+}
